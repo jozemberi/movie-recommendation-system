@@ -1,0 +1,38 @@
+<?php $_config_vars = array (
+  'sections' => 
+  array (
+  ),
+  'vars' => 
+  array (
+    'page_title_homepage' => 'SzPF | Film: ',
+    'recommendations' => 'Preporuke vezane uz ovaj film',
+    'search' => 'Traži',
+    'page_title' => 'Sustav za preporuku filmova',
+    'search_placeholder' => 'Pretraga po nazivu filma',
+    'separator' => '|',
+    'no_movie_info_in_db' => 'U bazi ove aplikacije ne postoje detaljnije informacije o filmu.',
+    'search_on_google' => 'Pitajte Google :)',
+    'open_anyway' => 'Svejedno otvori',
+    'plot' => 'Radnja:',
+    'director' => 'Redatelj:',
+    'writers' => 'Pisci:',
+    'actors' => 'Glumci:',
+    'released' => 'Datum premijere:',
+    'awards' => 'Nagrade:',
+    'language' => 'Jezik:',
+    'country' => 'Zemlja porijekla:',
+    'metascore' => 'Metascore ocjena:',
+    'attention' => 'Pažnja!',
+    'no_movie_in_db' => 'Ovaj film se ne nalazi u bazi ove aplikacije (barem ne pod ovim nazivom).',
+    'no_recommendation_influence' => 'Stoga, otvaranje ove stranice NEMA utjecaj na preporuke...',
+    'open_on_imdb' => 'Pogledaj na IMDB-u...',
+    'before_search_on_google' => 'Želite pronaći detalje o ovom filmu?',
+    'have_recommendation_influance' => 'No, otvaranje ove stranice ima utjecaj na preporuke!',
+    'go_home' => '&larr; Nazad na početnu stranicu',
+    'name' => 'naziv',
+    'movie_you_liked' => 'Filmovi koji Vam se sviđaju',
+    'previous_page' => 'Prethodna stranica',
+    'next_page' => 'Sljedeća stranica',
+    'page' => 'Stranica',
+  ),
+); ?>

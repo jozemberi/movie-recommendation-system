@@ -1,0 +1,7 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix} Josip Žemberi, siječanj 2014.
+<#if licenseLast??>
+${licenseLast}
+</#if>

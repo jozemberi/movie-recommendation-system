@@ -1,0 +1,409 @@
+/* ===========================
+   ======= Body style ======== 
+   =========================== */
+body {
+    background-image: url('img/bg.png');
+    color: #000305;
+    font-size: 87.5%; /* Base font size: 14px */
+    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.429;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+/* ===========================
+   ========= Headings ======== 
+   =========================== */
+
+h2 {font-size: 1.571em}	/* 22px */
+h3 {font-size: 1.429em}	/* 20px */
+h4 {font-size: 1.286em}	/* 18px */
+h5 {font-size: 1.143em}	/* 16px */
+h6 {font-size: 1em}	/* 14px */
+
+h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.page-title{
+    font-size: 3em;
+    text-align: justify;
+    padding-bottom: 0.2em;
+    line-height: 1.129;
+}
+
+.movie-title{
+    font-size: 1.371em;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 110%;
+
+}
+
+.movie-year{
+    font-size: 1.0em;
+    color: rgb(102, 102, 102);
+    font-weight: normal;
+    line-height: 110%;
+}
+
+.movie-time{
+    font-size: 0.95em;
+    color: rgb(102, 102, 102);
+    font-weight: normal;
+    line-height: 110%;
+}
+
+.movie-rating{
+    font-size: 0.95em;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    line-height: 110%;
+}
+
+
+/* ===========================
+   ======= Anchor style ====== 
+   =========================== */
+a {
+    outline: 0;
+}
+
+a img {
+    border: 0px; 
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #CF5C3F;
+    padding: 0 1px;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: #CF5C3F;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ====================================================
+   ===== Header with web page name and search box ===== 
+   ==================================================== */
+
+.page-header-box{
+    width: 100%;
+    padding: 1% 0%;	
+}
+
+.page-header-content-box {
+    clear: both;
+    margin: 0 auto; 
+    width: 98%;
+    overflow: hidden;
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.page-header-left-box{
+    clear: both;
+    width: 64%;
+    float: left;
+}
+.page-header-right-box{
+    float: right;
+    width: 35%;
+}
+
+.page-header-left-box-content {
+    background-color: #666;
+    color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;	
+    padding: 3% 5%;  
+}
+
+.page-header-right-box-content {
+    overflow: hidden;
+    background-color: #666;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;	
+    padding: 5% 4% 5% 2%;	
+}
+
+i {
+    color: cadetblue;
+}
+
+/* ===========================
+   ======= Content Area ====== 
+   =========================== */
+
+.content-box {
+    clear: both;
+    margin: 0 auto; 
+    width: 98%;
+    overflow: hidden;
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.left-box {
+    clear: both;
+    width: 31.5%;
+    float: left;
+}
+
+.movie-info-box {
+    clear: both;
+    width: 64%;
+    float: left;
+
+}
+.center-box {
+    padding-left: 1%;
+    float: left;
+    width: 31.5%;
+}
+.right-box {
+    float: right;
+    width: 35%;
+}
+
+.left-content-box {
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;	
+    padding: 3% 5%;  
+}
+
+.center-content-box {
+    background-color: #FFF;	
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;	
+    padding: 3% 5%;  
+}
+
+.right-content-box {
+    overflow: hidden;
+    background-color: #aeaeae;
+    color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;	
+    padding: 3% 5%;	
+}
+
+.sub-info {
+    font-style: italic;
+    color: #999;
+    font-size: 95%;
+}
+
+
+/* ===========================
+   ========= Footer ========== 
+   =========================== */
+
+#page-footer-box{
+    padding-top: 1%;
+    clear: both;
+}
+
+#footer-content-box{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 0;
+
+    overflow: hidden;
+}
+
+#footer-content-box-left{
+    width: 64%;
+    background-color: #aeaeae;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;	
+    color: #FFF;
+    float: left;
+}
+#footer-lang-box{
+    width: 35%;
+    background-color: #aeaeae;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;	
+    color: #FFF;
+    float: right;
+}
+
+#page-footer-box p {
+    margin-left: 1em;
+    margin-right: 1em;
+    /*margin: 2% auto;*/
+}
+
+/* search box */
+
+#searchfield { display: block; width: 100%; text-align: center; }
+
+#searchfield form {
+    display: inline-block;
+    background: #eeefed;
+    margin: 0;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px 0;
+    width: 100%;
+}
+#searchfield form .biginput {
+    /*width: 600px;*/
+    width: 60%;
+    height: 40px;
+    padding: 0 10px 0 10px;
+    background-color: #fff;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    color: #aeaeae;
+    font-weight:normal;
+    font-size: 1.5em;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    vertical-align: middle;
+}
+#searchfield form .biginput:focus {
+    color: #858585;
+}
+
+.flatbtn {
+    width: 30%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    color: #f3faef;
+    text-decoration: none;
+    background-color: #CF5C3F;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 9px 22px;
+    line-height: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);
+    -moz-box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);
+    box-shadow: 0 1px 0 rgba(15, 15, 15, 0.3);
+}
+.flatbtn:hover {
+    color: #fff;
+    background-color: tomato;
+}
+.flatbtn:active {
+    -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow:inset 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow:inset 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.autocomplete-suggestions { border: 1px solid #999; background: #fff; cursor: default; overflow: auto; }
+.autocomplete-suggestion { padding: 10px 5px; font-size: 1.2em; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #f0f0f0; }
+.autocomplete-suggestions strong { font-weight: normal; color: tomato }
+
+
+/* Pagination */
+.pages{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 130%;
+    margin: 1.5%;
+}
+
+.current{
+    background-color: #fff;
+    text-decoration: none;
+}
+/* ===========================
+   ====== Media Queries ====== 
+   =========================== */
+/*
+@media only screen and (min-width : 150px) and (max-width : 780px)
+*/
+
+/* ===========================
+   ====== Media Queries ====== 
+   =========================== */
+
+@media only screen and (min-width : 150px) and (max-width : 780px)
+{
+    .body {
+        clear: both; 
+        margin: 0 auto; 
+        width: 98%;
+        font-size: 90%;
+    }
+
+    .page-header-left-box, .page-header-right-box, 
+    .left-box, .right-box, #footer-content-box-left, #footer-lang-box, .movie-info-box {
+        width: 100%;
+        float: left;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin-bottom: 3%;
+        margin-top: 0%;
+    }
+
+    .center-box{
+        width: 100%;
+        float: left;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin-bottom: 3%;
+        padding-left: 0%;
+    }
+
+    .left-content-box, .right-content-box {
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        padding: 3% 5%;	
+
+    }
+
+    .center-content-box{
+        overflow: hidden;
+        padding: 3% 5%;       
+    }
+    
+
+
+
+}
+
+
+
+
+
